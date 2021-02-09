@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row mt-4" style="display: flex;">  
+        <ng-container *ngIf="citiesData&&citiesData.length>0">
+            <ng-container *ngFor="let city of citiesData ">    
+                <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title">{{city.name}}</h5>
+                      </div>
+                  </div>        
+            </ng-container>      
+        </ng-container>
+         
+    </div>
+</div>

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mobiquity"
+    }
+  },
+  "defaultProject": "mobiquity",
+  "cli": {
+    "analytics": "763382ae-c43f-4d6a-958b-c1a109f960ca"
+  }
 }
