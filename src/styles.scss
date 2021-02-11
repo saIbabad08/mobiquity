@@ -2,3 +2,19 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+.card{    
+    width: 17rem;
+    cursor: pointer;    
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.flex-context{
+    display:flex;
+    flex-direction: column;
+}
+em {
+    padding-left: 2rem;
+    color: #2ea517;
+}
+

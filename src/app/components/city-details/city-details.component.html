@@ -1,0 +1,17 @@
+<div class="container">
+    <ng-container *ngIf="forecastData&&forecastData.list&&forecastData.list.length>0">
+    <h2>{{forecastData.city.name}}</h2>
+    <div class="row mt-4" style="display: flex;">  
+            <ng-container *ngFor="let city of forecastData.list ">    
+                <div class="card" >
+                    <div class="card-body">
+                      <p>Temperature: <em>{{city.main.temp}}</em> </p>
+                      <p class="flex-context"><span>Sea Level at 9AM: <em>{{city.main.sea_level}}</em> </span>
+                        
+                      </div>
+                  </div>        
+            </ng-container>      
+        </div>
+        </ng-container>
+         
+</div>
